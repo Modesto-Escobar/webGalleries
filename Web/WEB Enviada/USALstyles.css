@@ -1,0 +1,594 @@
+
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Nenu */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    color: rgb(20, 20, 20);
+
+}
+.navbar img {
+    width: 50px;
+    height: auto;
+}
+.nav-links {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+.nav-links a {
+    color: rgb(20, 20, 20);
+    text-decoration: none;
+    margin: 0 10px;
+}
+.nav-left1 {
+    color: #1069D6;
+    font-size: xx-large;
+    margin-left: 50px;
+}
+.nav-left2 {
+    color: #1069D6;
+    font-size: xx-large;
+}
+.nav-right {
+    color: black;
+    margin-right: 50px;
+}
+.nav-right img{
+    width: 100px;
+}
+
+
+/* Cabecera */
+
+.cabecera {
+    display: flex;
+    padding: 10% 0 10% 10%;
+    background-color: #f5f5f5;
+}
+.seccion1 {
+    width: 40%;
+}
+.seccion1 h1{
+    width: 250px;
+    font-size: 3em;
+}
+.azul{
+    color: #1069D6;
+}
+.SubText1 {
+    width: 400px;
+    padding-top: 20px;
+}
+.seccion2 {
+    width: 60%;
+    margin-left: 100px;
+    position: relative;
+}
+.boton1{
+    background-color: #1069D6;
+    color: #f5f5f5;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0px 12px 12px 12px;
+    font-weight: 100;
+    margin-top: 10px;
+    transition: transform 0.3s;
+}
+.boton1:hover {
+    transform: scale(1.06);
+}
+.imagen1{
+    padding-left: 100px;
+    z-index: 1;
+}
+.imagen1 img{
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+}
+.card1 {
+    display: flex;
+    background-color: #f5f5f5;
+    width: 270px;
+    height: 70px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 20px;
+    box-shadow: 0 0 8px grey;
+}
+.boton2{
+    background-color: #1069D6;
+    color: #f5f5f5;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0px 12px 12px 12px;
+    font-weight: 100;
+    transition: transform 0.3s;
+}
+.boton2:hover {
+    transform: scale(1.06);
+}
+.card1 button{
+    margin: 10px;
+    height: 50px;
+}
+.text-card1 {
+    margin-left: 10px;
+    text-align: left;
+    z-index: 100;
+}
+.text-card1 p{
+    font-size: small;
+    margin-top: 10px;
+    font-weight: 200;
+}
+
+.card2 {
+    display: flex;
+    background-color: #f5f5f5;
+    width: 270px;
+    height: 70px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 150px;
+    margin-left: 250px;
+    box-shadow: 0 0 8px grey;
+}
+.boton3{
+    background-color: #1069D6;
+    color: #f5f5f5;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0px 12px 12px 12px;
+    font-weight: 100;
+    transition: transform 0.3s;
+}
+.boton3:hover {
+    transform: scale(1.06);
+}
+.text-card2 {
+    margin-left: 10px;
+    text-align: left;
+    z-index: 100;
+}
+.text-card2 p{
+    font-size: small;
+    margin-top: 10px;
+    font-weight: 200;
+}
+.card2 button{
+    margin: 10px;
+    height: 50px;
+}
+.matriz1 {
+    width: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    grid-gap: 10px;
+    z-index: 200;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.punto {
+    width: 5px;
+    height: 5px;
+    background-color: #B6D4F9;
+    border-radius: 50%;
+}
+.matriz2 {
+    width: 150px;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 10px;
+    z-index: 200;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+
+/*destacado*/
+
+.destacado{
+    display: flex;
+    background-color: #1069D6;
+    text-align: center;
+    justify-content: space-between;
+    height: 200px;
+}
+.icon1{
+    width: 30%;
+}
+.caja-logo {
+    padding: 20px;
+}
+
+.caja-logo h3{
+    text-align: center;
+    color: #f5f5f5;
+    font-size: larger;
+}
+
+/*Tutorial*/
+
+.tutorial{
+    width: auto;
+    background-color: #f5f5f5;
+    height: 750px;
+    text-align: center;
+}
+.titulo-tuto{
+    padding-top: 50px;
+    width: auto;
+}
+.titulo-tuto h3{
+    font-size: 2em;
+    color: #121111;
+}
+.contenido{
+    width: auto;
+    text-align: center;
+    display: flex;
+}
+.seccion3{
+    width: 40%;
+    height: 400px;
+}
+.caja-logo2{
+    width: 30%;
+    margin: auto;
+}
+.caja-logo2 img{
+    width: 160%;
+}
+.matriz3 {
+    width: 50px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    grid-gap: 10px;
+    z-index: 200;
+    margin-left: 350px;
+}
+.seccion4{
+    text-align: left;
+    width: 40%;
+}
+.matriz4 {
+    width: 150px;
+    height: 50px;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 10px;
+    z-index: 200;
+    margin-left: 400px;
+}
+
+
+/*Galería*/
+.galeria{
+    background-color: #cce1f9;
+    width: auto;
+    height: 1000px;
+    text-align: center;
+    padding-top: 20px;
+}
+.galeria h2{
+    padding-top: 20px;
+    font-size: xx-large;
+}
+.subTi{
+    width: 60%;
+    margin: 0 20%;
+}
+.subTi p{
+    text-align: center;
+}
+.tarjetas{
+    background-color: #cce1f9;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin: auto;
+    border-radius: 0 0 24px 0;
+}
+.tarjeta1{
+    width: 30%;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-radius: 0 0 24px 0;
+    padding-bottom: 20px;
+    box-shadow: 0 0 12px rgb(166, 166, 166);
+}
+.tarjeta2{
+    width: 30%;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-radius: 0 0 24px 0;
+    padding-bottom: 20px;
+    box-shadow: 0 0 12px rgb(166, 166, 166);
+}
+.tarjeta3{
+    width: 30%;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-radius: 0 0 24px 0;
+    padding-bottom: 20px;
+    box-shadow: 0 0 12px rgb(166, 166, 166);
+}
+.imag-tar1{
+    width: auto;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 0 0 24px 0;
+}
+.minIconos{
+text-align: center;
+}
+.mIf{
+    height: 20px;
+    display: inline-block;
+    text-align: left;
+}
+.mIf img {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+.mIf p {
+    display: inline-block;
+}
+.elemento {
+    display: inline-block; 
+}
+.tarjeta1 p{
+    padding: 20px;
+}
+.tarjeta2 p{
+    padding: 20px;
+}
+.tarjeta3 p{
+    padding: 20px;
+}
+.botonG1 {
+    background-color: #1069D6;
+    color: #f5f5f5;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0px 8px 8px 8px;
+    font-weight: 100;
+    transition: transform 0.3s;
+}
+.botonG1:hover {
+    transform: scale(1.06);
+}
+
+
+/*   About Us  */
+
+.AboutUs{
+    background-color: rgb(238, 238, 238);
+    height: 800px;
+    padding: 2em 1em;
+    display: flex;
+
+}
+.content{
+    margin: 5em 2em 3em 10em;
+    width: 20em;
+    padding: 1em;
+}
+.content h3{
+    font-size: xx-large;
+}
+.caras {
+    margin-top: 15em;
+}
+.caras1{
+    display: flex;
+    padding-left: 8em;
+}
+.caras2{
+    display: flex;
+}
+.card {
+    width: 8em;
+    height: 15em;
+    overflow: hidden;
+    text-align: center;
+}
+.card img{
+    width: 8em;
+    height: 8em;
+}
+.cardimg {
+    max-width: 100%; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.card p {
+    margin-top: 1em; 
+}
+
+/*  Contacto   */
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagen-contacto {
+  width: 100%;
+  height: 500px;
+}
+
+.imagen-contacto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.SubFondo {
+  background-color: #D0E0F8;
+  height: 300px;
+  width: 100%;
+}
+
+.contenedores {
+  display: flex;
+  justify-content: center;
+  margin-top: -450px; /* Mueve los contenedores hacia arriba */
+}
+
+.cont-direccion {
+  width: 400px;
+  height: 300px;
+  background-color: #1273EB;
+  margin: 0 25px; /* Agrega margen para separar los contenedores */
+  padding: 1em 2em;
+  border-radius: 8px 40px 8px 8px;
+}
+.cont-direccion table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cont-direccion th, .cont-direccion td {
+  padding: 10px;
+  text-align: left;
+  color: white;
+}
+
+.cont-direccion th {
+  background-color: #f0f0f0;
+}
+.cont-direccion h3{
+  color: white;
+  font-size: x-large;
+}
+.conditions {
+    font-size: small;
+    margin-top: 24px;
+}
+.conditions a {
+  color: #ffffff; 
+}
+
+
+.cont-formulario {
+  width: 400px;
+  height: 300px;
+  background-color: white;
+  margin: 0 16px; 
+  padding: 1em 2em;
+  border-radius: 8px 8px 40px 8px;
+}
+
+.cont-formulario h3{
+  color: rgb(22, 22, 22);
+  font-size: x-large;
+}
+
+.cont-formulario form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  height: 100px;
+  margin-top: 5px;
+  flex: 1;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+.botonC {
+    background-color: #1069D6;
+    color: #f5f5f5;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0px 12px 12px 12px;
+    font-weight: 100;
+    margin-top: 8px;
+    width: 120px;
+}
+
+
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    color: rgb(20, 20, 20);
+    height: 100px;
+    margin-top: 150px;
+
+}
+.footer img {
+    width: 50px;
+    height: auto;
+}
+
+.footer-left {
+    color: #1069D6;
+    font-size: xx-large;
+    margin-left: 50px;
+}
+.footer-left span{
+    color: black;
+}
+
+.footer-right {
+    color: black;
+    margin-right: 50px;
+}
+.footer-right img{
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*   MAPA   */
